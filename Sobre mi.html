@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rober Guillén</title>
+    <link rel="icon" href="FOTOS/Identidad visual marca RG.png" type="image/x-icon">
+    <link rel="stylesheet" href="EntregableStyle.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar" id="bajar">
+
+            <div class="navbar-logo"> <a href="Entregable3.html"><img src="FOTOS/Identidad visual marca RG.png" width="60"> </a> </div>
+
+            <div class="button_container" id="toggle"> <!-- Estos crean las líneas del menú hamburguesa -->
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+
+            <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <li><a href="Entregable3.html">Portafolio</a></li>
+                        <li><a href="Sobre mi.html">Sobre mi</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    
+    <section>
+
+        <div class="Grid-contenedor-foto-h1">
+            <div class="conteneder-foto">
+                <div>
+                    <img class="foto-yo" src="FOTOS/Mi foto.JPG" alt="Este soy yo">
+                </div>
+
+            </div>
+
+
+            <div class="contenerdor-padre-h1SOBRE">
+
+                <div class="contenerdor-h1SOBRE ">
+                <h1 class="texto-h1-sobre">YO SOY</h1>
+                <h1 class="texto2-h1-sobre">R o b e r t o</h1>
+                <h1 class="texto2-h1-sobre">G u i l l é n</h1>
+                <h1 class="texto2-h1-sobre">J a r r í n</h1>
+
+                <p class="texto-descripcion-yo">
+                    Lo que distingue el mundo son personas que quieren cambiarlo y querer ver un punto creativo y diferente ¿Cliché? Probablemente, mi nombre es Roberto Guillén, estudio publicidad en la Universidad San Francisco de Quito. <br><br>
+                     Soy una de esas personas que le gustan ver el mundo desde el vértice de la creatividad y poder ayudar a encender en mi cliente esa chispa de branding, innovación y gestión de su marca. 
+                     <br><br>
+                     Siempre estoy atento a los detalles y meticulosa para realizar un proyecto creativo ya que mi carrera me ha enseñado a pensar hasta en el último detalle. Considero importante las ideas de mis clientes y su propuesta creativa para llegar a un resultado inigualable que no solo se centre en eso sino en brindarte una experiencia que denote la pasión y dedicación que pongo en cada uno de mis proyectos. Entonces, ¿Te atreves a ser una persona que quiere ver el mundo desde el vértice de la creatividad?
+                </p>
+                
+                </div>
+                
+
+            </div>
+
+
+        </div>
+
+        <div class="css-contenedor-boton">
+            <a href="Contacto.html">
+                <div class="css-button-contactar">
+                    <p>Contactar</p>
+                </div>
+            </a>
+        </div>
+
+        
+    </section>
+
+
+
+
+
+
+    <footer class="pie-de-pag">
+
+        <div>
+            <a href="#"><img class="subir" src="FOTOS/REDES SOCIALES PESONALIZADAS/volver-arriba.png" alt="SUBIR AL INICIO" title="SUBIR AL INICIO"></a>
+        </div>
+
+
+
+        <div class="text1pie">
+           
+            <div>
+                <h1>REDES SOCIALES</h1>
+            </div>
+        </div>
+
+         <section class="iconos-container">
+
+            <div>
+               <a href="https://www.instagram.com/roberto_gj_/" target="_blank"> 
+                <img class="iconosRS" src="FOTOS/REDES SOCIALES PESONALIZADAS/18.png" alt="Ir a Instagrma" title="Ir a Instagrma"> 
+               </a>
+            </div>
+
+            <div>
+                <a href="https://www.behance.net/robergj?tracking_source=search_users|Roberto%20Guillén%20Jarrin" target="_blank">
+                <img class="iconosRS" src="FOTOS/REDES SOCIALES PESONALIZADAS/19.png" alt="Ir a behance" title="Ir a behance">
+                </a>
+            </div>
+
+            <div>
+                <a href="https://www.youtube.com/@robertogj24/videos" target="_blank">
+                <img class="iconosRS" src="FOTOS/REDES SOCIALES PESONALIZADAS/YouTube personalizado.png" alt="Ir a youtube" title="Ir a youtube">
+                </a>
+            </div>
+
+        </section>
+
+        <div class="text2pie">
+            <h1>Copyright 2024 © Roberto Guillén</h1>
+        </div>
+        
+    </footer>
+
+
+
+
+    <!-- Este es para animación de la hambuguesa -->
+
+    <script src="script E3.js"></script>
+
+
+    <!-- Este es haer la navbar sticky -->
+    <script>
+        window.onscroll = function() {
+          setSticky();
+        };
+        var header = document.querySelector(".header");
+        var sticky = header.offsetTop;
+        function setSticky() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+      </script>
+
+</body>
+</html>
